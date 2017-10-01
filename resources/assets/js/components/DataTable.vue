@@ -34,7 +34,7 @@
                      </th>
                      <th> &nbsp; </th>
                    </tr>
-                 </thead>
+                 </thead> 
                  <tbody>
                    <tr v-for="record in sortedRecords">
                      <td v-for="columnValue, column in record">{{columnValue}}</td>
