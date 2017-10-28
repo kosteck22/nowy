@@ -40,6 +40,10 @@ Route::get('/admin/posts', function () {
     return view('admin.posts.index');
 });
 
+Route::get('/admin/test2', function () {
+    return 'test2';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
