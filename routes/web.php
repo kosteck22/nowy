@@ -28,6 +28,10 @@ Route::get('/admin/zxc', function () {
     return view('admin.users.index');
 });
 
+Route::get('/admin/master1', function () {
+    return 'master1';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
