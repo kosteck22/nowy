@@ -36,6 +36,10 @@ Route::get('/admin/master2', function () {
     return 'master2';
 });
 
+Route::get('/admin/posts', function () {
+    return view('admin.posts.index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
