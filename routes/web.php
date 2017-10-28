@@ -32,6 +32,10 @@ Route::get('/admin/master1', function () {
     return 'master1';
 });
 
+Route::get('/admin/master2', function () {
+    return 'master2';
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
